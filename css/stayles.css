@@ -41,3 +41,11 @@ img{
 .main-content{
     flex-grow: 1;
 }
+
+/* GLOBAL-WRAPPER */
+.global-wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}

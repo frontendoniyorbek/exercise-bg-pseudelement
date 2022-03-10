@@ -17,7 +17,8 @@ body{
     height: 100%;
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Arial",sans-serif;
+    font-family:"Roboto Condensed", "Arial",sans-serif;
+    font-weight: 400;
     background-color: #fff;
     color: #222;
 }
@@ -60,6 +61,7 @@ img{
     display: flex;
     align-items:center;
     justify-content: center;
+    padding: 24px;
     width: 100%;
     max-width: 600px;
     background-image: url("../img/left-bg.jpg");
@@ -76,6 +78,8 @@ img{
     margin-top: 0;
     margin-bottom: 24px;
     text-transform: uppercase;
+    font-family:"Bebas Neue", "Roboto Condensed", "Arial",sans-serif;
+    font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 2px;
@@ -86,9 +90,19 @@ img{
     display: inline-block;
     background-color:#1E90FF;
     color: #fff;
+    font-family:"Bebas Neue", "Roboto Condensed", "Arial",sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
+}
+
+.hero-link:hover{
+    background-color: rgba(30, 144, 255, 0.8);
+}
+
+.hero-link:active{
+    background-color: rgba(30, 144, 255, 0.6);
 }
 
 .hero-link-inner {
